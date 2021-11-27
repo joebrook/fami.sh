@@ -6,11 +6,11 @@ function battery () {
     elif [[ $fetch_bat -lt 20 ]]; then
         printf "\uf243\n"
     elif [[ $fetch_bat -lt 30 ]]; then
-        printf "\uf242"
+        printf "\uf242\n"
     elif [[ $fetch_bat -lt 50 ]]; then
-        printf "\uf241"
+        printf "\uf241\n"
     elif [[ $fetch_bat -lt 100 ]]; then
-        printf "\uf240"
+        printf "\uf240\n"
     fi
 }
 
